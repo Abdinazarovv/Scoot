@@ -70,6 +70,7 @@
     </div>
   </header>
 
+  <!-- main -->
   <main>
 
     <section class="hero">
@@ -91,42 +92,140 @@
       </div>
     </section>
 
-    <section class="guide">
+    <section class="manual">
+
       <div class="container">
-        <div class="guide__wrapper">
-          <h2 class="guide__heading visually-hidden">Manual</h2>
 
-          <ul class="guide__list">
-            <li class="guide__item">
-              <img class="guide__img" src="./Images/guide-3.svg">
-              <div class="guide__content">
-                <h4 class="guide__heading">Enjoy the ride</h4>
-                <p class="guide__text">Scan the QR code and the bike will unlock. Retract the cable lock, put on a
-                  helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps.</p>
+        <div class="manual__wrapper">
+
+          <h2 class="manual__heading visually-hidden">Manual</h2>
+
+          <ul class="manual__list">
+            <li class="manual__item">
+              <picture>
+                <source type="image/avif" srcset="./img/ul-enjoy.avif 1x, ./img/ul-enjoy@2x.avif 2x">
+                <source type="image/webp" srcset="./img/ul-enjoy.webp 1x, ./img/ul-enjoy@2x.webp 2x">
+                <img class="manual__img" src="./img/ul-enjoy.png" alt="Enjoy the ride" srcset="./img/ul-enjoy.png 1x, ./img/ul-enjoy@2x.png 2x" width="96" height="96">
+              </picture>
+              <div class="manual__content">
+                <h4 class="manual__heading">Enjoy the ride</h4>
+                <p class="manual__text">Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps.</p>
               </div>
             </li>
 
-            <li class="guide__item">
-              <img class="guide__img" src="./Images/guide-2.svg" alt="">
-              <div class="guide__content">
-                <h4 class="guide__heading">Pick your scooter</h4>
-                <p class="guide__text">We show the most important info for the scooters closest to you. So you know
-                  how much charge they have left and can see roughly how much it will cost.</p>
+            <li class="manual__item">
+              <picture>
+                <source type="image/avif" srcset="./img/ul-pick.avif 1x, ./img/ul-pick@2x.avif 2x">
+                <source type="image/webp" srcset="./img/ul-pick.webp 1x, ./img/ul-pick@2x.webp 2x">
+                <img class="manual__img" src="./img/ul-pick.png" alt="Pick your scooter" srcset="./img/ul-pick.png 1x, ./img/ul-pick@2x.png 2x" width="96" height="96">
+              </picture>
+              <div class="manual__content">
+                <h4 class="manual__heading">Pick your scooter</h4>
+                <p class="manual__text">We show the most important info for the scooters closest to you. So you know how much charge they have left and can see roughly how much it will cost.</p>
               </div>
             </li>
 
-            <li class="guide__item">
-              <img class="guide__text" src="./Images/guide-1.svg" alt="">
-              <div class="guide__content">
-                <h4 class="guide__heading">Locate with app</h4>
-                <p class="guide__text">Use the app to find the nearest scooter to you. We are continuously placing
-                  scooters in the areas with most demand, so one should never be too far away.</p>
+            <li class="manual__item">
+              <picture>
+                <source type="image/avif" srcset="./img/ul-locate.avif 1x, ./img/ul-locate@2x.avif 2x">
+                <source type="image/webp" srcset="./img/ul-locate.webp 1x, ./img/ul-locate@2x.webp 2x">
+                <img class="manual__img" src="./img/ul-locate.png" alt="Locate with app" srcset="./img/ul-locate.png 1x, ./img/ul-locate@2x.png 2x" width="96" height="96">
+              </picture>
+              <div class="manual__content">
+                <h4 class="manual__heading">Locate with app</h4>
+                <p class="manual__text">Use the app to find the nearest scooter to you. We are continuously placing scooters in the areas with most demand, so one should never be too far away.</p>
               </div>
             </li>
           </ul>
 
         </div>
+
       </div>
+
+    </section>
+
+    <section class="advantages">
+
+      <h2 class="visually-hidden">Advantages</h2>
+
+      <div class="advantages__sub-section">
+
+        <div class="container">
+
+          <div class="advantages__wrapper">
+
+            <div class="advantages__content">
+              <h3 class="advantages__content-heading">Easy to use riding telemetry</h3>
+              <p class="advantages__content-text">The Scoot app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app.</p>
+              <button class="advantages__content-button site-button" type="button">Learn More</button>
+            </div>
+
+            <picture>
+              <source type="image/avif" srcset="./img/main-easy.avif 1x, ./img/main-easy@2x.avif 2x">
+              <source type="image/webp" srcset="./img/main-easy.webp 1x, ./img/main-easy@2x.webp 2x">
+              <img class="advantages__img" src="./img/main-easy.png" srcset="./img/main-easy.png 1x, ./img/main-easy@2x.png 2x" alt="Easy to use riding telemetry" width="445" height="445">
+            </picture>
+
+          </div>
+  
+        </div>
+
+        <div class="advantages__sub-section-arrow"></div>
+
+      </div>
+
+      <div class="advantages__sub-section">
+
+        <div class="container">
+
+          <div class="advantages__wrapper">
+
+            <div class="advantages__content">
+              <h3 class="advantages__content-heading">Coming to a city near you</h3>
+              <p class="advantages__content-text">Scoot is available in 4 major cities so far. We’re expanding rapidly, so be sure to let us know if you want to see us in your hometown. We’re aiming to let our scooters loose on 23 cities over the coming year.</p>
+              <button class="advantages__content-button site-button" type="button">Learn More</button>
+            </div>
+
+            <picture>
+              <source type="image/avif" srcset="./img/main-coming.avif 1x, ./img/main-coming@2x.avif 2x">
+              <source type="image/webp" srcset="./img/main-coming.webp 1x, ./img/main-coming@2x.webp 2x">
+              <img class="advantages__img" src="./img/main-coming.png" srcset="./img/main-coming.png 1x, ./img/main-coming@2x.png 2x" alt="Coming to a city near you" width="445" height="445">
+            </picture>
+
+          </div>
+  
+        </div>
+
+        <div class="advantages__sub-section-arrow"></div>
+
+      </div>
+
+      <div class="advantages__sub-section">
+
+        <div class="container">
+
+          <div class="advantages__wrapper">
+
+            <div class="advantages__content">
+              <h3 class="advantages__content-heading">Zero hassle payments</h3>
+              <p class="advantages__content-text">Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also link your PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a month.</p>
+              <button class="advantages__content-button site-button" type="button">Learn More</button>
+            </div>
+
+            <picture>
+              <source type="image/avif" srcset="./img/main-zero.avif 1x, ./img/main-zero@2x.avif 2x">
+              <source type="image/webp" srcset="./img/main-zero.webp 1x, ./img/main-zero@2x.webp 2x">
+              <img class="advantages__img" src="./img/main-zero.png" srcset="./img/main-zero.png 1x, ./img/main-zero@2x.png 2x" alt="Zero hassle payments" width="445" height="445">
+            </picture>
+
+          </div>
+  
+        </div>
+
+        <div class="advantages__sub-section-arrow"></div>
+
+      </div>
+
     </section>
 
   </main>
