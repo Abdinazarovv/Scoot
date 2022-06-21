@@ -1,0 +1,101 @@
+.sign {
+    background-color: $dark-navy;
+    background-image: url(../../Images/footer-bg.png);
+    background-size: 1161px 158px;
+    background-position: calc(50% + 305px) bottom;
+    background-repeat: no-repeat;
+}
+
+.sign__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 102px;
+    padding-bottom: 102px;
+}
+
+.sign__heading {
+    width: 415px;
+    margin: 0;
+    font-family: $mono;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: $white;
+}
+
+.sign__link {
+    @include link-unstyled;
+}
+
+.sign__link ~ .sign__link {
+    margin-left: 18px;
+}
+
+.sign__link-img {
+    display: block;
+}
+
+.sign__link-img--app {
+    width: 159px;
+    height: 56px;
+}
+
+.sign__link-img--google {
+    width: 182px;
+    height: 56px;
+}
+
+
+@media only screen and (max-width:868px) {
+    .sign {
+        background-position: center bottom;
+    }
+    
+    .sign__wrapper {
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 62px;
+        padding-bottom: 62px;
+    }
+    
+    .sign__heading {
+        text-align: center;
+    }
+    
+    .sign__links {
+        margin-top: 40px;
+    }
+    
+    .sign__link ~ .sign__link {
+        margin-left: 13px;
+    }
+    
+    .sign__link-img--app {
+        width: 114px;
+        height: 40px;
+    }
+    
+    .sign__link-img--google {
+        width: 130px;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width:458px) {
+    .sign {
+        background-position: right -180px bottom;
+    }
+    
+    .sign__wrapper {
+        padding-top: 88px;
+        padding-bottom: 88px;
+    }
+    
+    .sign__heading {
+        width: 100%;
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: -1.42857px;
+    }
+}

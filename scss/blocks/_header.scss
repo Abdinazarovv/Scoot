@@ -109,21 +109,39 @@
 
 
 
-// @media only screen and (max-width:768px){
-//     .site-header{
-//         padding: 22px 0;
-//         background-color: $white;
-//     }
-    
-//     .header__list{
-//         display: none;
+@media only screen and (max-width:1150px) {
 
-//         &__btn{
-//             display: none;
-//         }
-//     }
+    .header__wrapper {
+      padding-right: 40px;
+      padding-left: 40px;
+    }
+  }
+  
+  @media only screen and (max-width:750px)  {
+    .header__wrapper {
+      padding-right: 0;
+      padding-left: 0;
+      padding-top: 22px;
+      padding-bottom: 22px;
+    }
+  
+    .header__toggler-btn {
+      display: block;
+      margin-top: 5px;
+    }
     
-//     .container {
-//         max-width: 689px;
-//     }
-// }
+    .header__logo-link {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .header__navbar {
+      display: none;
+    }
+  
+    .header__button {
+      display: none;
+    }
+  
+  }
