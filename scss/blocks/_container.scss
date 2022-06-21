@@ -1,9 +1,14 @@
 /* CONTAINER */
 .container {
-  width: 100%;
-  max-width: 900px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1146px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-big {
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }

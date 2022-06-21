@@ -1,5 +1,14 @@
-@mixin list-unstyled {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+@mixin button {
+    text-decoration: none;
+    width: 180px;
+    height: 53px;
+    padding: 14px 39px;
+    font-family: $mono;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: $snow;
+    background-color: $yellow;
+
 }

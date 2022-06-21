@@ -1,0 +1,67 @@
+.hero {
+
+    background-color: #495567;
+
+    .container-big {
+        background-image: url("./../../Images/hero.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    &__container {
+        padding: 152px 0;
+    }
+
+    &__wrapper {
+        max-width: 500px;
+        width: 100%;
+        gap: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__heading {
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -2.5px;
+        color: $white;
+    }
+
+    &__text {
+        position: relative;
+        font-family: $deca;
+        margin-left: 95px;
+        font-size: 15px;
+        line-height: 25px;
+        color: $white;
+
+        &::before {
+            content: "";
+            position: absolute;
+            display: inline-block;
+            top: 50%;
+            right: 100%;
+            transform: translate(-57px, -50%);
+            width: 202px;
+            height: 15px;
+            background-color: $yellow;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 100%;
+            transform: translate(57px, -5%);
+            display: inline-block;
+            width: 447px;
+            height: 138px;
+            background-image: url("./../../Images/arrow.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+}
+
+

@@ -1,1 +1,27 @@
-/* FONTS */
+/* space-mono-regular - latin */
+@font-face {
+    font-family: 'Space Mono';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/space-mono-v11-latin-regular.woff2') format('woff2'), 
+         url('../fonts/space-mono-v11-latin-regular.woff') format('woff'); 
+  }
+  /* space-mono-700 - latin */
+  @font-face {
+    font-family: 'Space Mono';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/space-mono-v11-latin-700.woff2') format('woff2'), 
+         url('../fonts/space-mono-v11-latin-700.woff') format('woff'); 
+  }
+  /* lexend-deca-regular - latin */
+@font-face {
+    font-family: 'Lexend Deca';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/lexend-deca-v16-latin-regular.woff2') format('woff2'),
+         url('../fonts/lexend-deca-v16-latin-regular.woff') format('woff'); 
+  }
