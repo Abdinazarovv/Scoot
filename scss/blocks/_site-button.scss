@@ -1,0 +1,22 @@
+.site-button {
+  border: 3px solid $yellow;
+  background-color: $yellow;
+  padding-top: 14px;
+  padding-right: 39px;
+  padding-bottom: 14px;
+  padding-left: 39px;
+  cursor: pointer;
+  font-family: $mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: $white;
+  transition: background 0.4s ease, color 0.4s ease;
+}
+
+.site-button:hover {
+  background-color: $white;
+  color: $yellow
+}

@@ -1,0 +1,19 @@
+/* Navbar Mobile */
+
+.site-nav-mob__list {
+  @include list-unstyled;
+}
+
+.site-nav-mob__item ~ .site-nav-mob__item {
+  margin-top: 24px;
+}
+
+.site-nav-mob__link {
+  @include link-unstyled;
+  font-family: $mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: $light-grey;
+}

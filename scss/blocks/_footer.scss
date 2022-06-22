@@ -51,7 +51,7 @@
     fill: $light-grey;
   }
   
-  @include breakpoint-down (615px) {
+  @media only screen and (max-width:615px) {
     .footer__wrapper {
       padding-top: 64px;
       padding-bottom: 90px;

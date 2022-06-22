@@ -1,0 +1,28 @@
+.site-nav {
+  margin-left: 58px;
+}
+
+.site-nav__list {
+  @include list-unstyled;
+  display: flex;
+  align-items: flex-start;
+}
+
+.site-nav__item ~ .site-nav__item {
+  margin-left: 32px;
+}
+
+.site-nav__link {
+  @include link-unstyled;
+  font-family: $mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  color: $dim-grey;
+  transition: color 0.4s ease;
+}
+
+.site-nav__link:hover {
+  color: $yellow;
+}
