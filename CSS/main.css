@@ -362,7 +362,6 @@ template {
   font-weight: 400;
   src: url("../fonts/lexend-deca-v16-latin-regular.woff2") format("woff2"), url("../fonts/lexend-deca-v16-latin-regular.woff") format("woff");
 }
-/* GENERAL */
 html {
   box-sizing: border-box;
   height: 100%;
@@ -396,7 +395,6 @@ img {
   height: auto;
 }
 
-/* VISUALLY-HIDDEN */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -456,7 +454,6 @@ img {
   color: #FCB72B;
 }
 
-/* Navbar Mobile */
 .site-nav-mob__list {
   padding: 0;
   margin: 0;
