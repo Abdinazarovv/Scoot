@@ -478,6 +478,28 @@ img {
   color: #E5ECF4;
 }
 
+.site-button {
+  border: 3px solid #FCB72B;
+  background-color: #FCB72B;
+  padding-top: 14px;
+  padding-right: 39px;
+  padding-bottom: 14px;
+  padding-left: 39px;
+  cursor: pointer;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #fff;
+}
+
+.site-button:hover {
+  background-color: #fff;
+  color: #FCB72B;
+}
+
 .header {
   width: 100%;
   position: fixed;
